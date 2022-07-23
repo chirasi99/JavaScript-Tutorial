@@ -1,0 +1,289 @@
+/*------------------------------------ Question 01 ----------------------------- */
+.button1{
+    background-color: rgb(128, 198, 128);
+    color: white;
+    margin-top: 20px;
+    width: 120px;
+    height: 40px;
+    border-radius: 3px;
+    border-color:rgb(128, 198, 128);
+    margin-left: 20px;
+
+}
+
+#form1{
+    margin-top: 20px ;
+    margin-left: 20px;
+}
+
+#htown,#fname1{
+    padding-left: 30px;
+    margin-top: 10px;
+    height: 25px;
+    width: 200px;
+    border-radius: 3px;
+    border: 2px solid rgb(228, 221, 221);
+}
+
+label{
+    font-weight:bold;
+}
+
+#fname1{
+    margin-bottom: 20px;
+}
+
+/* -------------------------------------------------------------------------------------- */
+
+
+
+/*------------------------------------ Question 02 ----------------------------- */
+
+.button5{
+    background-color: rgb(128, 198, 128);
+    color: white;
+    width: 300px;
+    height: 40px;
+    border-radius: 3px;
+    border-color:rgb(128, 198, 128);
+    margin-left: 20px;
+}
+
+#form2{
+    margin-top: 100px ;
+    margin-left: 20px;
+}
+
+#nowtime{
+    padding-left: 30px;
+    margin-top: 10px;
+    height: 25px;
+    width: 200px;
+    border-radius: 3px;
+    border: 2px solid rgb(228, 221, 221);
+}
+
+#time{
+    margin-left: 20px;
+}
+
+/* -------------------------------------------------------------------------------------- */
+
+
+
+/*------------------------------------ Question 03 ----------------------------- */
+
+#bdy, #fname2{
+    padding-left: 30px;
+    margin-top: 10px;
+    height: 25px;
+    width: 200px;
+    border-radius: 3px;
+    border: 2px solid rgb(228, 221, 221);
+}
+
+#fname2{
+    margin-bottom: 20px;  
+}
+
+/* -------------------------------------------------------------------------------------- */
+
+
+
+/*------------------------------------ Question 04 ----------------------------- */
+
+#hei,#wid{
+    padding-left: 30px;
+    margin-top: 10px;
+    height: 25px;
+    width: 200px;
+    border-radius: 3px;
+    border: 2px solid rgb(228, 221, 221);
+
+}
+
+#wid{
+    margin-bottom: 20px;
+}
+
+#area{
+    margin-left: 20px;
+    float: right;
+    padding-right: 1140px;
+    padding-top: 15px;
+}
+
+/* -------------------------------------------------------------------------------------- */
+
+
+
+/*------------------------------------ Question 05 ----------------------------- */
+.button2{
+    background-color: rgb(128, 198, 128);
+    color: white;
+    margin-top: 20px;
+    width: 120px;
+    height: 40px;
+    border-radius: 3px;
+    border-color:rgb(128, 198, 128);
+    margin-left: 20px;
+}
+
+#form3{
+    margin-top: 100px ;
+    margin-left: 20px;
+}
+
+#free{
+    margin-top: 10px;
+    height: 25px;
+    width: 200px;
+    border-radius: 3px;
+    border: 2px solid rgb(228, 221, 221);
+    color: rgb(46, 135, 171);
+    margin-left: 28px;
+}
+
+#text{
+    margin-top: 10px;
+    text-align: left;
+    padding-top: 20px;
+}
+
+/* -------------------------------------------------------------------------------------- */
+
+
+
+/*------------------------------------ Question 06 ----------------------------- */
+
+#insert{
+    padding-left: 30px;
+    margin-top: 10px;
+    height: 25px;
+    width: 200px;
+    border-radius: 3px;
+    border: 2px solid rgb(228, 221, 221);
+}
+
+/* -------------------------------------------------------------------------------------- */
+
+
+
+/*------------------------------------ Question 07 --------------------------------------- */
+
+#button3{
+    background-color: rgb(77, 82, 77);
+    color: white;
+    margin-top: 20px;
+    width: 180px;
+    height: 40px;
+    border-radius: 3px;
+    border-color:rgb(77, 82, 77);
+    margin-left: 20px;
+
+}
+
+#lab{
+    font-weight: normal;
+}
+
+/* -------------------------------------------------------------------------------------- */
+
+
+
+/*------------------------------------ Question 08 ----------------------------- */
+
+#amount{
+    padding-left: 30px;
+    margin-top: 20px;
+    height: 35px;
+    width: 250px;
+    border-radius: 3px;
+    border: 2px solid rgb(228, 221, 221);
+}
+
+#para1, #para2{
+    margin-left: 20px;
+}
+
+/* -------------------------------------------------------------------------------------- */
+
+
+
+/*------------------------------------ Question 09 ----------------------------- */
+#button4{
+    background-color: rgb(177, 61, 187);
+    color: white;
+    margin-top: 20px;
+    width: 320px;
+    height: 40px;
+    border-radius: 3px;
+    border-color:rgb(177, 61, 187);
+    margin-left: 20px;
+
+}
+
+#marks,#sub{
+    padding-left: 30px;
+    margin-top: 10px;
+    height: 25px;
+    width: 200px;
+    border-radius: 3px;
+    border: 2px solid rgb(228, 221, 221);
+}
+
+#sub{
+    margin-bottom: 20px;
+}
+
+#para3{
+    margin-left: 20px;
+}
+
+
+/* -------------------------------------------------------------------------------------- */
+
+
+
+/*------------------------------------ Question 10 ----------------------------- */
+
+#result{
+    margin-top: 10px;
+    height: 60px;
+    width: 315px;
+    border: 2px solid ;
+    border-color:rgb(22, 20, 20);
+    background-color: black;
+    color: aliceblue;
+    margin-left: 1px;
+    text-align: right;
+    font-weight: 300;
+    font-size: 2.0rem;
+
+}
+
+#btn,#btnAC {
+    height: 50px;
+    width:80px;
+    margin: -1.5px;
+    margin-top: -2px;
+    margin-bottom: -5px;
+    font-size: 1.5rem;
+    text-align: center;
+ 
+} 
+
+.btn1{
+    background-color: rgb(162, 156, 156);
+}
+
+.btn{
+    background-color: white;
+}
+
+.btn2{
+    background-color: rgb(223, 106, 63);
+    padding-top: 90px;
+    padding-bottom:100px;
+}
+/* -------------------------------------------------------------------------------------- */
