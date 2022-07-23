@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab sheet 04 Answers</title>
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <!---------------- Question 01------------------------------------------------------->
+
+    <form id="form1">
+        <label for="fname">Name :</label><br>
+        <input type="text" id="fname1" name="name" placeholder="Insert a name..."><br>
+        <label for="hometown">Hometown:</label><br>
+        <input type="text" id="htown" name="hometown" placeholder="Insert a home town...">
+    </form>
+    <button type="button" class="button1" id="b1">click</button>
+
+    <!-- ------------------------------------------------------------------------------->
+
+
+
+    <!---------------- Question 02------------------------------------------------------->
+
+    <form id="form2">
+        <label for="time">Now time :</label><br>
+        <input type="text" id="nowtime" name="time" placeholder="Insert the current time..."><br>
+    </form>
+    <p id="time"></p>
+    <button class="button5" id="b2">click</button>
+
+    <!-- ------------------------------------------------------------------------------->
+
+
+
+    <!---------------- Question 03------------------------------------------------------->
+
+    <form id="form2">
+        <label for="uname">Name :</label><br>
+        <input type="text" id="fname2" name="uname" placeholder="Insert a name..."><br>
+        <label for="dateofbirth">Birthday:</label><br>
+        <input type="text" id="bdy" name="birthday" placeholder="Insert a birthday...">
+    </form>
+    <button class="button1" id="b3">click</button>
+
+    <!-- ------------------------------------------------------------------------------->
+
+
+
+    <!---------------- Question 04------------------------------------------------------->
+
+    <form id="form2">
+        <label for="width">Width :</label><br>
+        <input type="text" id="wid" name="width"><br>
+        <label for="height">Height:</label><br>
+        <input type="text" id="hei" name="height">
+    </form>
+    <button class="button1" id="b4">Find Area</button>
+    <p id="area"></p>
+
+    <!-- ------------------------------------------------------------------------------->
+
+
+
+    <!---------------- Question 05------------------------------------------------------->
+
+    <form id="form3">
+        <h3>Purchase your item</h3>
+        <label id="free" for="freetrial">Free trial :</label><br>
+        <textarea id="text" name="freetrialtext" rows="5" cols="25">
+    help you to design
+    provide security 
+    manage your plans 
+        </textarea>
+    </form>
+    <button class="button2" id="b5">Try it now</button>
+
+    <!-- ------------------------------------------------------------------------------->
+
+
+
+    <!---------------- Question 06------------------------------------------------------->
+
+    <form id="form2">
+        <label for="insertno">Insert the number :</label>
+        <input type="text" id="insert" name="insertNum"><br>
+
+    </form>
+    <button class="button1" id="b6">Find root</button>
+
+    <!-- ------------------------------------------------------------------------------->
+
+
+
+    <!---------------- Question 07------------------------------------------------------->
+
+    <form id="form3">
+        <h3>Available Hotel Packages</h3>
+        <input type="checkbox" id="check1" name="Weddingpackage" onclick="enable(this.id)">
+        <label id="lab" for="wedding">Wedding Package</label><br>
+        <input type="checkbox" id="check2" name="Birthdaypackage" onclick="enable(this.id)">
+        <label id="lab" for="birthday">Birthday Package</label><br>
+        <input type="checkbox" id="check3" name="Normalackage" onclick="enable(this.id)">
+        <label id="lab" for="normalfun">Normal Function Package</label><br>
+        <input type="checkbox" id="check4" name="Daypackage" onclick="enable(this.id)">
+        <label id="lab" for="dayout">Day out Package</label><br>
+    </form>
+    <button id="button3">Submit</button>
+
+    <!-- --------------------------------------------------------------------------------->
+
+
+
+
+    <!---------------- Question 08------------------------------------------------------->
+
+    <form id="form3">
+        <label for="amounting">Insert the amount :</label><br>
+        <input type="text" id="amount" name="insertamount"><br>
+    </form>
+    <button class="button1" id="b8">Submit</button>
+    <p id="para1"></p>
+    <p id="para2"></p>
+
+
+    <!-- ------------------------------------------------------------------------------->
+
+
+
+    <!---------------- Question 09------------------------------------------------------->
+
+    <form id="form3">
+        <label for="sname">Subject:</label>
+        <input type="text" id="sub" name="Subject"><br>
+        <label for="marks">Marks :</label>
+        <input type="text" id="mark" name="marks">
+    </form>
+    <button id="button4">click</button>
+    <p id="para3"></p>
+
+    <!-- ------------------------------------------------------------------------------->
+
+
+
+    <!---------------- Question 10------------------------------------------------------->
+
+    <form id="form3">
+        <label for="calculations"></label>
+        <input type="text" id="result" name="result" disabled><br>
+        <table>
+            <tr>
+                <th><input class="btn1" type="button" id="btn" value="+" onclick="display('+') "> </th>
+                <th><input class="btn1" type="button" id="btn" value="-" onclick="display('-') "> </th>
+                <th><input class="btn1" type="button" id="btn" value="*" onclick="display('*') "> </th>
+                <th><input class="btn1" type="button" id="btn" value="/" onclick="display('/') "> </th>
+            </tr>
+            <tr>
+                <td><input type="button" id="btn" value="7" onclick="display('7')"> </td>
+                <td><input type="button" id="btn" value="8" onclick="display('8')"> </td>
+                <td><input type="button" id="btn" value="9" onclick="display('9')"> </td>
+                <td rowspan=" 4"><input type="button" class="btn2" id="btn" value="=" onclick="calculations()"> </td>
+            </tr>
+            <tr>
+                <td><input type="button" id="btn" value="4" onclick="display('4')"> </td>
+                <td><input type="button" id="btn" value="5" onclick="display('5')"> </td>
+                <td><input type="button" id="btn" value="6" onclick="display('6')"> </td>
+            </tr>
+            <tr>
+                <td><input type="button" id="btn" value="1" onclick="display('1')"> </td>
+                <td><input type="button" id="btn" value="2" onclick="display('2')"> </td>
+                <td><input type="button" id="btn" value="3" onclick="display('3')"> </td>
+            </tr>
+            <tr>
+                <td><input type="button" id="btn" value="0" onclick="display('0')"> </td>
+                <td><input type="button" id="btn" value="." onclick="display('.')"> </td>
+                <td><input type="button" id="btnAC" value="AC" onclick="display('AC')"> </td>
+            </tr>
+        </table>
+    </form>
+
+    <!-- ------------------------------------------------------------------------------->
+
+    <script src=" ./main.js"> </script>
+</body>
+
+</html>
